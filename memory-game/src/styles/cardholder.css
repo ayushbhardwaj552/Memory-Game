@@ -1,0 +1,10 @@
+.cardHolder {
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(auto-fit , minmax(10vw , 1fr));
+    column-gap: 12px;
+}
+
+.cardholder .card  {
+    margin:12px;
+}
